@@ -2,10 +2,19 @@ import React from "react";
 import cartImg from "../../assets/images/Frame 1000001910.png"
 
 const Product = () => {
+
+    // import useNavigation for routing
+    // const navigate = useNavigate();
+
+    const handleClick = () => {
+        // navigate{ "/" }
+        //insert your navigation link, probably a logic to billing platform
+    }
+
   return (
     <div className="w-full grid grid-cols-3 items-center ring-[1.3px] ring-gray-200 p-5 rounded-md">
         <div className="w-full flex justify-start ">
-          <div className=" w-32 h-32 bg-white overflow-hidden mr-10">
+          <div className=" w-32 h-32 bg-white mr-4 overflow-hidden">
             <img className="w-full h-full" src={cartImg} alt="" />
           </div>
           <div className="flex justify-center flex-col gap-4">
@@ -21,8 +30,8 @@ const Product = () => {
           <p className="text-gray-400 text-sm font-normal">Qty:2</p>
         </div>
       </div>
-      <div className="">
-        <button className="w-full bg-[#db3c25] hover:bg-[#db3c25]/80 text-white text-sm font-medium  py-3 rounded-2xl">
+      <div className="w-full flex justify-end items-center">
+        <button onClick={""} className="w-full bg-[#db3c25] hover:bg-[#db3c25]/80 text-white text-sm font-medium  py-3 rounded-2xl">
           Repeat Order
         </button>
       </div>

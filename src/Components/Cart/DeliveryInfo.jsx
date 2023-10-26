@@ -35,7 +35,7 @@ const DeliveryInfo = () => {
         </div>
         <div className="flex justify-end">
           <div className="flex justify-center items-center flex-col gap-2">
-            <p>Delivered</p>
+            <p className="text-[#db3c25]">Delivered</p>
             <div className=" flex justify-center items-center ">
               <div className="w-5 h-5 bg-[#db3c25] rounded-full"></div>
             </div>

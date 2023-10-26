@@ -4,14 +4,16 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 // import Header from './Components/Header'
 // import Product from './Components/Product'
-import Cart from './Components/Cart/index'
+// import Cart from './Components/Cart/index'
+import Mobile from "./Components/Cart/Mobile/Mobile";
 
 function App() {
   return (
     <>
       {/* <Header />
       <Product/> */}
-      <Cart/>
+      {/* <Cart /> */}
+      <Mobile/>
     </>
   );
 }
